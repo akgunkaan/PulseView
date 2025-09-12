@@ -36,21 +36,10 @@ PulseView is a modern web application that leverages Artificial Intelligence to 
 
 1.  **Clone the repository:**
 
-    ```bash
-    git clone <your-repository-url>
-    ```
-
 2.  **Navigate to the project directory:**
-
-    ```bash
-    cd urbview-proje
-    ```
 
 3.  **Start the Docker containers:**
 
-    ```bash
-    docker-compose up --build
-    ```
     **Note:** The first time you run this command, it will take a significant amount of time (15-30+ minutes) as it needs to download the AI models and Python/Node.js dependencies. Subsequent builds will be much faster.
 
 4.  **Visit the application:**

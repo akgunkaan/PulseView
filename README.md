@@ -34,15 +34,15 @@ PulseView is a modern web application that leverages Artificial Intelligence to 
 
 ### Installation & Running the Application
 
-1.  **Clone the repository:**
+1.  **Clone the repository**
 
-2.  **Navigate to the project directory:**
+2.  **Navigate to the project directory**
 
-3.  **Start the Docker containers:**
+3.  **Start the Docker containers**
 
     **Note:** The first time you run this command, it will take a significant amount of time (15-30+ minutes) as it needs to download the AI models and Python/Node.js dependencies. Subsequent builds will be much faster.
 
-4.  **Visit the application:**
+4.  **Visit the application**
     Open your browser and navigate to `http://localhost:3000`.
 
 ## How to Use

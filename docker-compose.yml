@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:13-3.1-alpine
+    container_name: pulseview_db
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=pulse_view
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - pulseview-net
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: pulseview_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/code
+      - backend_packages:/usr/local/lib/python3.9/site-packages
+    environment:
+      - DATABASE_URL=postgresql://user:password@db/pulse_view
+    depends_on:
+      - db
+    command: /bin/sh -c "pip install --no-cache-dir -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    networks:
+      - pulseview-net
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: pulseview_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      # Use a named volume to isolate node_modules from the host
+      - .:/app
+      - frontend_packages:/app/node_modules
+    depends_on:
+      - backend
+    environment:
+      # Informs the React app about the backend API's address. The browser will use this.
+      - REACT_APP_API_BASE_URL=http://localhost:8000/api/v1
+    networks:
+      - pulseview-net
+
+volumes:
+  postgres_data:
+  backend_packages:
+  frontend_packages:
+
+networks:
+  pulseview-net:
+    driver: bridge

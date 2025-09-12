@@ -1,0 +1,63 @@
+About the job
+About UrbView
+UrbView is an award-winning startup reimagining how cities are designed and experienced. Our mission is to make urban spaces safer, more inclusive, and more sustainable by combining geospatial technologies, AI, and urban analytics. We integrate social factors like street harassment prevention and crime reduction into the planning process, empowering cities with data-driven solutions.
+We are looking for a Geospatial Full-Stack Developer to join our team. Whether you’re a freelancer or a student looking for a thesis, internship, or part-time role, this is a unique chance to contribute to the foundation of a technology with real-world impact.
+
+
+Your Role
+As part of UrbView, you will:
+Build and maintain geospatial web applications and APIs that turn complex data into actionable insights.
+Design visualizations, dashboards, and maps to support our AI/LLM models.
+Support data engineering workflows (data pipelines, ETL, real-time urban data integration).
+Contribute to AI-driven analysis of remote sensing, mobility, and urban datasets.
+Collaborate on product strategy, sales meetings, public pitches, and industry events.
+(Optional for students) Contribute to or base your master’s thesis / internship project on UrbView’s technology.
+
+
+Requirements
+Technical skills
+
+Proficiency in geospatial technologies: GIS, Earth observation, remote sensing, and spatial databases (e.g., PostGIS, GeoPandas, QGIS).
+Experience building interactive frontend applications for web or mobile, including dynamic maps, dashboards, and visualization components (e.g., React, Vue, Svelte, Leaflet, Mapbox).
+Strong programming skills in at least one modern language (Python, JavaScript/TypeScript) for data processing and/or full-stack web development.
+Familiarity with AI/LLMs and integrating them into data-intensive applications.
+Experience with data engineering: APIs, pipelines, real-time data handling, cloud environments.
+Knowledge of software engineering best practices: testing, documentation, scalability, version control (Git).
+Experience with web app infrastructure: authentication, payments, subscription systems (OAuth, Stripe, Firebase).
+Familiarity with data visualization libraries for analytics and interactive dashboards (D3.js, Deck.gl, Plotly, Vega).
+Knowledge of cloud platforms and DevOps (Docker, CI/CD, AWS/GCP/Azure).
+(Optional) Familiarity with domain-specific data formats: GTFS, OSM, property APIs.
+Bonus: experience in urban planning, architecture, mobility, or civic tech.
+Personal qualities
+
+Independent and proactive, able to take ownership of projects.
+Comfortable working in a fast-paced startup environment with shifting priorities.
+Strong communication skills for team collaboration and (optional) external presentations.
+Interest in SaaS product development (user experience, subscriptions, growth mindset).
+Curiosity to work across technical and domain challenges (mobility, real estate, urban safety).
+Proficiency in English (German or Spanish is a plus).
+Ideally based near Hamburg or Barcelona, but remote collaboration is possible.
+
+
+What We Offer
+Flexible freelance or part-time arrangement tailored to your availability.
+Opportunity to shape UrbView’s core technology from the ground up.
+Exposure to industry conferences, exhibitions, and pitch events.
+Three potential entry paths:
+
+Six-month internship, master’s thesis collaboration with potential transition to a full-time position.
+Part-time student job with potential transition into a full-time role.
+Freelance depending on availability and project funding.
+Join a mission-driven team with strong traction:
+
+Winner, Social Impact Award Germany 2022
+Winner, Innovation in Digital Equality Award 2022
+Backed by public funding and private investors
+
+
+Why Join UrbView?
+This is your chance to work at the intersection of tech, AI, and urban planning while gaining hands-on startup experience. At UrbView, your contributions directly shape how cities tackle pressing social challenges.
+
+
+Interested? Apply here or send your resume to gerard.jover@urbview.com. Portfolios with previous work or projects are especially welcome, it helps us see your capabilities in action.
+Learn more: www.urbview.com

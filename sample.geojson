@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "type": "Green Space"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -73.965355, 40.782865 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Bryant Park", "type": "Green Space" },
+      "geometry": { "type": "Point", "coordinates": [ -73.983253, 40.753597 ] }
+    }
+  ]
+}

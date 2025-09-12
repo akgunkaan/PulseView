@@ -1,0 +1,15 @@
+# Use an official Node runtime as a parent image
+FROM node:18-alpine
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy package files
+COPY package.json ./
+COPY package-lock.json ./
+
+# Install dependencies
+# This will only run if node_modules is empty
+RUN npm install --no-optional
+EXPOSE 3000
+CMD ["npm", "start"]

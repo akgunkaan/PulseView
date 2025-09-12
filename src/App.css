@@ -1,0 +1,21 @@
+body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.add-spot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+}
+
+.add-spot-form h4 {
+  margin: 0 0 5px 0;
+}
+
+.add-spot-form label {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,24 @@
+.marker-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: #c0392b; /* Varsayılan renk, style ile ezilecek */
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -15px;
+  border: 1px solid #fff;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+/* İkonun altındaki sivri ucu oluşturmak için pseudo-element kullanıyoruz */
+.marker-pin::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin: 5px 0 0 5px;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+}

@@ -23,7 +23,6 @@ PulseView is a modern web application that leverages Artificial Intelligence to 
 | **Data Processing**       | GeoPandas, Pandas                                                                                      |
 | **Database**              | PostGIS / PostgreSQL                                                                                   |
 | **DevOps**                | Docker, Docker Compose                                                                                 |
-| **Version Control**       | Git / GitHub                                                                                           |
 
 ## Getting Started
 
